@@ -146,5 +146,3 @@ Silakan fork repositori ini dan buat *pull request* jika memiliki perbaikan atau
 Proyek ini dibangun dengan kesederhanaan dan efisiensi sebagai prioritas utama, sempurna untuk memulai aplikasi kecil atau prototipe dengan cepat.
 
 ```
-
----
