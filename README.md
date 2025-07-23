@@ -33,7 +33,7 @@ Klik **\[Launch Instance]** di halaman EC2 dashboard
 
 **Isi konfigurasi sebagai berikut:**
 
-* **Name:** `flask-minimal`
+* **Name:** `Bebas`
 * **AMI (Amazon Machine Image):** `Ubuntu Server 22.04 LTS (HVM), SSD Volume Type`
 * **Instance Type:** `t2.nano` ✅ *(hemat & cukup untuk testing kecil)*
 * **Key Pair (login):** 'Pilih Vockey'
