@@ -143,7 +143,7 @@ Proyek ini menggunakan lisensi [MIT License](LICENSE).
 
 Silakan fork repositori ini dan buat *pull request* jika memiliki perbaikan atau penambahan fitur. Jika ada saran atau masukan, buka issue untuk kita diskusikan bersama.
 
-Proyek ini dibangun dengan kesederhanaan dan efisiensi sebagai prioritas utama — sempurna untuk memulai aplikasi kecil atau prototipe dengan cepat.
+Proyek ini dibangun dengan kesederhanaan dan efisiensi sebagai prioritas utama sempurna untuk memulai aplikasi kecil atau prototipe dengan cepat.
 
 ```
 
