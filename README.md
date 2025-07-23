@@ -4,7 +4,7 @@ Proyek starter Flask minimal yang dirancang untuk membantu Anda dengan cepat men
 
 ## Fitur
 - Aplikasi Flask satu file (`app.py`) untuk produktivitas dan kesederhanaan maksimal.
-- Struktur HTML dasar dengan sedikit gaya.
+- Struktur HTML dasar dengan sedikit gaya dan JavaScript.
 - Penyiapan proyek yang sederhana dan intuitif tanpa kompleksitas yang tidak perlu.
 - Mudah dikustomisasi untuk pengembangan aplikasi web yang cepat.
 
