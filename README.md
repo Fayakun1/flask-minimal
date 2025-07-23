@@ -14,7 +14,7 @@ Berikut adalah **langkah-langkah lengkap** membuat instance **Ubuntu t2.nano** d
 
 ---
 
-## ✅ LANGKAH-LANGKAH MEMBUAT INSTANCE UBUNTU T2.NANO DI AWS
+## ✅ LANGKAH-LANGKAH MEMBUAT INSTANCE UBUNTU DI AWS
 
 ### 1. Masuk ke AWS EC2 Console
 
