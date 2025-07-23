@@ -1,6 +1,3 @@
----
-
-````markdown
 # flask-minimal
 
 Proyek starter Flask minimal yang dirancang untuk membantu Anda dengan cepat mengatur aplikasi web yang bersih, sederhana, dan efisien. Proyek ini terstruktur agar ringan dan berfokus pada produktivitas, dengan semua kode berada dalam satu file (`app.py`), serta templat dan aset statis dasar.
