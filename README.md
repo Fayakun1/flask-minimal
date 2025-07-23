@@ -10,6 +10,68 @@ Proyek starter Flask minimal yang dirancang untuk membantu Anda dengan cepat men
 
 ---
 
+Berikut adalah **langkah-langkah lengkap** membuat instance **Ubuntu t2.nano** di **AWS EC2**, dengan **key pair (vockey.pem)** dan **security group (SG)** yang membuka port **SSH (22), HTTP (80), HTTPS (443), dan Flask (5000):**
+
+---
+
+## ✅ LANGKAH-LANGKAH MEMBUAT INSTANCE UBUNTU T2.NANO DI AWS
+
+### 1. Masuk ke AWS EC2 Console
+
+* Buka: [https://console.aws.amazon.com/ec2](https://console.aws.amazon.com/ec2)
+* Login ke akun AWS kamu
+
+---
+
+### 2. Launch Instance
+
+Klik **\[Launch Instance]** di halaman EC2 dashboard
+
+---
+
+### 3. Konfigurasi Instance
+
+**Isi konfigurasi sebagai berikut:**
+
+* **Name:** `flask-minimal`
+* **AMI (Amazon Machine Image):** `Ubuntu Server 22.04 LTS (HVM), SSD Volume Type`
+* **Instance Type:** `t2.nano` ✅ *(hemat & cukup untuk testing kecil)*
+* **Key Pair (login):** 'Pilih Vockey'
+
+---
+
+### 4. Konfigurasi Network dan Security Group
+
+#### Security group
+
+Klik **Create security group**, lalu isi:
+
+* **Security group name:** `SG-Flask`
+* **Description:** `Allow SSH, HTTP, HTTPS, and Flask`
+
+**Tambahkan inbound rules berikut:**
+
+| Type       | Protocol | Port Range | Source    |
+| ---------- | -------- | ---------- | --------- |
+| SSH        | TCP      | 22         | 0.0.0.0/0 |
+| HTTP       | TCP      | 80         | 0.0.0.0/0 |
+| HTTPS      | TCP      | 443        | 0.0.0.0/0 |
+| Custom TCP | TCP      | 5000       | 0.0.0.0/0 |
+
+---
+
+### 5. Luncurkan Instance
+
+* Periksa ulang konfigurasi
+* Klik **Launch Instance**
+
+---
+
+### 6. Connect Instance
+
+* Klik **Connect** sampai masuk ke terminal
+
+
 ## Persiapan
 
 Jalankan perintah berikut untuk menginstal dependensi Python:
