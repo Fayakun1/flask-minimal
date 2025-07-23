@@ -46,7 +46,7 @@ Klik **\[Launch Instance]** di halaman EC2 dashboard
 
 Klik **Create security group**, lalu isi:
 
-* **Security group name:** `SG-Flask`
+* **Security group name:** `Bebas`
 * **Description:** `Allow SSH, HTTP, HTTPS, and Flask`
 
 **Tambahkan inbound rules berikut:**
